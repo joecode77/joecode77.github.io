@@ -5,19 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enactus Covenant University</title>
 
-    <!------------ GOOGLE FONTS ------------>
-    <link
-      href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
-      rel="stylesheet"
-    />
-
-    <!------------ FONT AWESOME ------------>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      rel="stylesheet"
-    />
-
-    <!------------ CUSTOM STYLE SHEET ------------>
     <link rel="stylesheet" href="./css/slider.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -29,27 +16,8 @@
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
-        <!-- <a
-          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-       >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
-        </a> -->
-
         <img
-          src="images/logo.jpg"
+          src="images/logos/logo.jpg"
           alt=""
           class="w-90 h-20 text-white p-2 rounded-full"
         />
@@ -60,93 +28,37 @@
           class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
         >
           <a class="mr-5 hover:text-gray-900">HOME</a>
-          <a class="mr-5 hover:text-gray-900">ABOUT</a>
-          <a class="mr-5 hover:text-gray-900">TEAM</a>
-          <a class="mr-5 hover:text-gray-900">PROJECTS</a>
-          <a class="mr-5 hover:text-gray-900">APPLY NOW</a>
-        </nav>
-        <!-- <button
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
-        >
-          Button
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
+          <a class="mr-5 hover:text-gray-900" href="#what-we-do">ABOUT</a>
+          <a class="mr-5 hover:text-gray-900" href="#executive-team">TEAM</a>
+          <a class="mr-5 hover:text-gray-900" href="#projects">PROJECTS</a>
+          <a
+            class="mr-5 hover:text-gray-900"
+            href="http://bit.ly/ENACTUSFORMS2022"
+            >APPLY NOW</a
           >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button> -->
+        </nav>
       </div>
     </header>
     <!-- Header ends -->
-
-    <!-- Slideshow begins -->
-    <!-- <div class="slider">
-      <input type="radio" name="slide" id="slide-1" checked />
-      <input type="radio" name="slide" id="slide-2" />
-      <input type="radio" name="slide" id="slide-3" />
-
-      <div class="slides">
-        <div class="slide slide-1"></div>
-        <div class="slide slide-2"></div>
-        <div class="slide slide-3"></div>
-      </div>
-
-      <div class="arrows arrow-left">
-        <label for="slide-3">
-          <span><i class="fas fa-angle-left"></i></span>
-        </label>
-        <label for="slide-1">
-          <span><i class="fas fa-angle-left"></i></span>
-        </label>
-        <label for="slide-2">
-          <span><i class="fas fa-angle-left"></i></span>
-        </label>
-      </div>
-
-      <div class="arrows arrow-right">
-        <label for="slide-2">
-          <span><i class="fas fa-angle-right"></i></span>
-        </label>
-        <label for="slide-3">
-          <span><i class="fas fa-angle-right"></i></span>
-        </label>
-        <label for="slide-1">
-          <span><i class="fas fa-angle-right"></i></span>
-        </label>
-      </div>
-
-      <div class="dots">
-        <label for="slide-1"></label>
-        <label for="slide-2"></label>
-        <label for="slide-3"></label>
-      </div>
-    </div> -->
-    <!-- slideshow ends -->
 
     <!-- slideshow begins -->
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="images/slider_img1.jpg" style="width: 100%" />
+        <img src="images/slider/slider_img1.jpg" style="width: 100%" />
         <div class="text">ENACTUS COVENANT UNIVERSITY</div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/slider_img2.jpg" style="width: 100%" />
+        <img src="images/slider/slider_img2.jpg" style="width: 100%" />
         <div class="text">ENACTUS COVENANT UNIVERSITY</div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/sdlider_img_3.jpg" style="width: 100%" />
+        <img src="images/slider/slider_img_3.jpg" style="width: 100%" />
         <div class="text">ENACTUS COVENANT UNIVERSITY</div>
       </div>
 
@@ -166,7 +78,7 @@
 
     <!-- What we do section -->
 
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font" id="what-we-do">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h2
@@ -257,7 +169,7 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="./images/img2.jpg"
+            src="./images/mission/img2.jpg"
           />
         </div>
         <div
@@ -299,34 +211,34 @@
             <h2
               class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
             >
-              2K
+              120kg
             </h2>
-            <p class="leading-relaxed">Lives Impacted</p>
+            <p class="leading-relaxed">Tyres Reporposed</p>
           </div>
           <div class="p-4 sm:w-1/4 w-1/2">
             <h2
               class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
             >
-              5
+              15000kg
             </h2>
-            <p class="leading-relaxed">Team Projects</p>
+            <p class="leading-relaxed">Plastics Recycled</p>
           </div>
 
           <div class="p-4 sm:w-1/4 w-1/2">
             <h2
               class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
             >
-              50
+              257
             </h2>
-            <p class="leading-relaxed">Student Members Anually</p>
+            <p class="leading-relaxed">Job Created</p>
           </div>
           <div class="p-4 sm:w-1/4 w-1/2">
             <h2
               class="title-font font-medium sm:text-4xl text-3xl text-gray-900"
             >
-              3
+              8
             </h2>
-            <p class="leading-relaxed">Partners</p>
+            <p class="leading-relaxed">Project Locations</p>
           </div>
         </div>
       </div>
@@ -476,7 +388,7 @@
 
     <!-- our Projects -->
 
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font" id="projects">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col">
           <div class="h-1 bg-gray-200 rounded overflow-hidden">
@@ -500,16 +412,20 @@
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="images/pet_city.JPG"
+                src="./images/projects/pet city.JPG"
               />
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
-              Pet City
+              PET CITY
             </h2>
             <p class="text-base leading-relaxed mt-2">
-              This project involved the conversion of plastics to bricks
+              Pet city is a social enterprise that focuses on reducing plastic
+              waste (PET bottles) by converting plastic to PET bricks, while
+              simultaneously building a waste management culture in our
+              community. It is an enterprise owned by Enactus Covenant
+              university in advocacy for a greener environment.
             </p>
-            <a class="text-indigo-500 inline-flex items-center mt-3"
+            <!-- <a class="text-indigo-500 inline-flex items-center mt-3"
               >Learn More
               <svg
                 fill="none"
@@ -522,23 +438,31 @@
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </a> -->
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg overflow-hidden">
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="images/pet_city.JPG"
+                src="./images/projects/eco bag.jpg"
               />
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
-              Bargass
+              ECO-BAG
             </h2>
             <p class="text-base leading-relaxed mt-2">
-              This project involves the conversion of waste to cooking gas
+              ECO-BAG is a social enterprise that creates energy retention bags
+              aimed at solving the problem of inconsistent power supply
+              encountered by businesses and individuals in Nigeria. ECO-BAG goes
+              beyond energy conservation, the project seeks to empower
+              disadvantaged groups that require financial support towards
+              satisfying the basic human needs. ECO-BAG is borne out a
+              commitment to sustainability. Actively participating in our
+              communities and integrating sustainable business practices to
+              provide decent work and tackle environmental menaces.
             </p>
-            <a class="text-indigo-500 inline-flex items-center mt-3"
+            <!-- <a class="text-indigo-500 inline-flex items-center mt-3"
               >Learn More
               <svg
                 fill="none"
@@ -551,24 +475,26 @@
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </a> -->
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg overflow-hidden">
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
-                src="images/pet_city.JPG"
+                src="./images/projects/toles.jpg"
               />
             </div>
             <h2 class="text-xl font-medium title-font text-gray-900 mt-5">
-              Manners Chariot
+              TOLES
             </h2>
             <p class="text-base leading-relaxed mt-2">
-              This project involves the creation of a site that allows students
-              to order food
+              Toles is a social enterprise that focuses on reducing tire waste
+              by converting tire to shoe, while simultaneously building a waste
+              management culture in our community. It is an enterprise owned by
+              Enactus Covenant university in advocacy for a greener environment.
             </p>
-            <a class="text-indigo-500 inline-flex items-center mt-3"
+            <!-- <a class="text-indigo-500 inline-flex items-center mt-3"
               >Learn More
               <svg
                 fill="none"
@@ -581,7 +507,7 @@
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -591,7 +517,7 @@
 
     <!-- Beginning of Our Team -->
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900" id="executive-team">
       <div class="container px-6 py-10 mx-auto">
         <h1
           class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white"
@@ -614,7 +540,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                src="./images/profiles/ife.jpg"
                 alt=""
               />
 
@@ -636,7 +562,9 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              I'm currently my final year at school, studying Petroleum
+              Engineering. I'm also a Data Analyst with skills in R and SQL. I'm
+              an active volunteer and passionate towards social impact.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -660,7 +588,8 @@
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ifeoluwa-omosowoeni/"
+                target="_blank"
                 class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 aria-label="Linkedin"
               >
@@ -708,7 +637,8 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              Hi! my name is Mmesoma Ugwuanyi I am the General Secretary for
+              Enactus Covenant University
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -758,7 +688,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                src="./images/profiles/stephen.jpg"
                 alt=""
               />
 
@@ -780,7 +710,9 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              Stephen is a project manager, a tech and venture enthusiast. His
+              nudge for solving problems has promoted him into participating and
+              founding products that improve lives and create value
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -804,7 +736,8 @@
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/umurie-nsikak-stephen-ab1b63216"
+                target="_blank"
                 class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 aria-label="Linkedin"
               >
@@ -830,7 +763,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                src="./images/profiles/nkem.jpg"
                 alt=""
               />
 
@@ -852,7 +785,11 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              Nkem is a motivated Student Worker currently pursuing a B.Sc
+              degree in Accounting with expected graduation in June 2023. She is
+              eager to expand horizons and make positive and sustainable impact
+              by taking on hands-on, dynamic position in Finance, management and
+              Community Development.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -876,7 +813,8 @@
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/nkemdilim-obiekwe"
+                target="_blank"
                 class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 aria-label="Linkedin"
               >
@@ -902,7 +840,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                src="./images/profiles/kathryn.jpg"
                 alt=""
               />
 
@@ -924,7 +862,9 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              I'm Kathryn! I'm currently in my third year studying Industrial
+              Physics and Applied Geophysics. I love analytical problem-solving
+              and volunteering.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -996,7 +936,8 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello there this is my profile
+              Hi! my name is Fisayo Adesoye. I am the Public Relations Officer
+              for Enactus Covenant University.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -1046,7 +987,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="https://images.unsplash.com/photo-1590272456521-1bbe160a18ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                src="./images/profiles/tireni.jpg"
                 alt=""
               />
 
@@ -1068,7 +1009,13 @@
             <p
               class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
             >
-              Hello There this is my profile
+              My name is Tirenioluwa Odey, The current Technical Director of
+              Enactus and also a Creative, I always thrive to support the best I
+              can in any group or project that I'm put in and I have a nothing
+              is impossible mindset towards everything. I'm currently in my 3rd
+              year, studying Electrical and Electronics Engineering. I am a
+              strong Believer in God and I am a testament of his wonderful
+              works.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -1116,6 +1063,110 @@
     </section>
 
     <!-- End of our team -->
+
+    <!-- Beginning of footer -->
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <span class="ml-3 text-xl">Enactus Covenant University</span>
+        </a>
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          Website made with ❤️ by
+          <a
+            href="https://joecode77.github.io/"
+            class="ml-1"
+            rel="noopener noreferrer"
+            style="color: blue; text-decoration: underline"
+            target="_blank"
+            >Joseph Ogunfowokan</a
+          >
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a
+            class="text-gray-500"
+            href="https://www.facebook.com/enactuscovenantuniversity/"
+          >
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="ml-3 text-gray-500"
+            href="https://twitter.com/enactuscu_ota"
+          >
+            <svg
+              fill="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="ml-3 text-gray-500"
+            href="https://www.instagram.com/enactuscu_ota/"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="ml-3 text-gray-500"
+            href="https://www.linkedin.com/company/enactus-covenant-university/about/"
+          >
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+    <!-- End of footer -->
 
     <script src="script/script.js"></script>
   </body>

@@ -1,7 +1,7 @@
 {
   "name": "enactuscu",
   "version": "1.0.0",
-  "description": "",
+  "description": "---",
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./css/styles.css",
@@ -20,8 +20,5 @@
   "homepage": "https://github.com/joecode77/enactuscu#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "flowbite": "^1.5.5"
   }
 }
