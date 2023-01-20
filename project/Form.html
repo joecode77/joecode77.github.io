@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Form.css" />
+    <link rel="stylesheet" href="./css/Project.css" />
+    <title>CSC310 Assignment.</title>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="Project.html">Group Data</a></li>
+          <li><a href="calc.html">Calculator</a></li>
+          <li><a href="Form.html">Bio-Data Form</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="form_container">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="matric">Matric Number:</label>
+        <input type="text" id="matric" name="matric" /><br /><br />
+      </form>
+      <button onclick="display()">Submit</button>
+    </div>
+
+    <div id="display"></div>
+
+    <script src="./js/form.js"></script>
+  </body>
+</html>
